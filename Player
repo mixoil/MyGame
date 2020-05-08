@@ -1,0 +1,126 @@
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace MyGame
+{
+    public class Player : IWarrior
+    {
+        public int Health { get; set; }
+        public Direction ViewDirection { get; set; }
+        public Point Location { get; set; }
+        public Image Model { get; set; }
+        public Gun Weapon { get; set; }
+
+        public Player(Point location)
+        {
+            Location = location;
+            ViewDirection = Direction.Up;
+            Health = 100;
+            Model = Properties.Resources.SpecOps;
+            Weapon = Gun.M9;
+        }
+
+        public void Move(GameField field, bool pressedA, bool pressedD, bool pressedS, bool pressedW, int step)
+        {
+            var dx = 0;
+            var dy = 0;
+            if (pressedA)
+                dx -= step;
+            if (pressedD)
+                dx += step;
+            if (!IsReachable(field, Location.X + dx, Location.Y))
+                dx = 0;
+            if (pressedS)
+                dy += step;
+            if (pressedW)
+                dy -= step;
+            if (!IsReachable(field, Location.X, Location.Y + dy))
+                dy = 0;
+            Location = new Point(Location.X + dx, Location.Y + dy);
+        }
+
+        private bool IsReachable(GameField field, int x, int y)
+        {
+            if(!(x + 37 + 22 < field.Width * GameField.CellSize && //37 - половина размера клетки, 22 - половина размера хит-бокса
+                    y + 37 + 22 < field.Height * GameField.CellSize &&
+                    x + 37 - 22 >= 0 && y + 37 - 22 >= 0)) return false;
+            var notCrossingWall = true;
+            foreach(var cell in GetLocationCells(x, y, 44))
+            {
+                if (field[cell.X, cell.Y] == CellState.Wall)
+                    notCrossingWall = false;
+            }
+            return notCrossingWall;
+        }
+
+        public static IEnumerable<Point> GetLocationCells(int x, int y, int hitBoxLength)
+        {
+            x += 15;
+            y += 15;
+            yield return GameField.GetCellFromPixelsLocation(x, y);
+            yield return GameField.GetCellFromPixelsLocation(x + hitBoxLength, y);
+            yield return GameField.GetCellFromPixelsLocation(x, y + hitBoxLength);
+            yield return GameField.GetCellFromPixelsLocation(x + hitBoxLength, y + hitBoxLength);
+        }
+
+        public void Turn(KeyEventArgs key)
+        {
+            switch(ViewDirection)
+            {
+                case Direction.Down:
+                    if (key.KeyCode == Keys.J)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                        ViewDirection = Direction.Left;
+                    }
+                    if (key.KeyCode == Keys.L)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                        ViewDirection = Direction.Right;
+                    }
+                    break;
+                case Direction.Up:
+                    if (key.KeyCode == Keys.J)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                        ViewDirection = Direction.Left;
+                    }
+                    if (key.KeyCode == Keys.L)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                        ViewDirection = Direction.Right;
+                    }
+                    break;
+                case Direction.Left:
+                    if (key.KeyCode == Keys.I)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                        ViewDirection = Direction.Up;
+                    }
+                    if (key.KeyCode == Keys.K)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                        ViewDirection = Direction.Down;
+                    }
+                    break;
+                case Direction.Right:
+                    if (key.KeyCode == Keys.I)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate270FlipNone);
+                        ViewDirection = Direction.Up;
+                    }
+                    if (key.KeyCode == Keys.K)
+                    {
+                        Model.RotateFlip(RotateFlipType.Rotate90FlipNone);
+                        ViewDirection = Direction.Down;
+                    }
+                    break;
+            }
+        }
+    }
+}
