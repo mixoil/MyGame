@@ -1,0 +1,9 @@
+C:\миша\MyGame\bin\Debug\MyGame.exe.config
+C:\миша\MyGame\bin\Debug\MyGame.exe
+C:\миша\MyGame\bin\Debug\MyGame.pdb
+C:\миша\MyGame\obj\Debug\MyGame.csprojAssemblyReference.cache
+C:\миша\MyGame\obj\Debug\MyGame.Properties.Resources.resources
+C:\миша\MyGame\obj\Debug\MyGame.csproj.GenerateResource.cache
+C:\миша\MyGame\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\миша\MyGame\obj\Debug\MyGame.exe
+C:\миша\MyGame\obj\Debug\MyGame.pdb

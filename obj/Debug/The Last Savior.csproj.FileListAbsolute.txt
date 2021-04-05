@@ -1,0 +1,38 @@
+C:\миша\The Last Savior\obj\Debug\The Last Savior.csprojAssemblyReference.cache
+C:\миша\The Last Savior\obj\Debug\MyGame.MainMenuForm.resources
+C:\миша\The Last Savior\obj\Debug\MyGame.Properties.Resources.resources
+C:\миша\The Last Savior\obj\Debug\The Last Savior.csproj.GenerateResource.cache
+C:\миша\The Last Savior\obj\Debug\The Last Savior.csproj.CoreCompileInputs.cache
+C:\миша\The Last Savior\bin\Debug\TheLastSavior.exe.config
+C:\миша\The Last Savior\bin\Debug\TheLastSavior.exe
+C:\миша\The Last Savior\bin\Debug\TheLastSavior.pdb
+C:\миша\The Last Savior\obj\Debug\TheLastSavior.exe
+C:\миша\The Last Savior\obj\Debug\TheLastSavior.pdb
+C:\миша\The Last Savior\obj\Debug\MyGame.GameForm.resources
+C:\миша\The Last Savior\bin\Debug\NUnit3.TestAdapter.dll
+C:\миша\The Last Savior\bin\Debug\NUnit3.TestAdapter.pdb
+C:\миша\The Last Savior\bin\Debug\nunit.engine.dll
+C:\миша\The Last Savior\bin\Debug\nunit.engine.api.dll
+C:\миша\The Last Savior\bin\Debug\nunit.framework.dll
+C:\миша\The Last Savior\bin\Debug\nunit.framework.pdb
+C:\миша\The Last Savior\bin\Debug\nunit.framework.xml
+C:\миша\The Last Savior\obj\Debug\The Last Savior.csproj.CopyComplete
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\NUnit3.TestAdapter.dll
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\NUnit3.TestAdapter.pdb
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\nunit.engine.dll
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\nunit.engine.api.dll
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\TheLastSavior.exe.config
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\TheLastSavior.exe
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\TheLastSavior.pdb
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\nunit.framework.dll
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\nunit.framework.pdb
+D:\MISHA\Универ\Программирование\C#\The Last Savior\bin\Debug\nunit.framework.xml
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\The Last Savior.csprojAssemblyReference.cache
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\MyGame.GameForm.resources
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\MyGame.MainMenuForm.resources
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\MyGame.Properties.Resources.resources
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\The Last Savior.csproj.GenerateResource.cache
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\The Last Savior.csproj.CoreCompileInputs.cache
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\The Last Savior.csproj.CopyComplete
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\TheLastSavior.exe
+D:\MISHA\Универ\Программирование\C#\The Last Savior\obj\Debug\TheLastSavior.pdb

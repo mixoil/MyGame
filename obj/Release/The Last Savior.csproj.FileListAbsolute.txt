@@ -1,0 +1,22 @@
+C:\миша\The Last Savior\bin\Release\NUnit3.TestAdapter.dll
+C:\миша\The Last Savior\bin\Release\NUnit3.TestAdapter.pdb
+C:\миша\The Last Savior\bin\Release\nunit.engine.dll
+C:\миша\The Last Savior\bin\Release\nunit.engine.api.dll
+C:\миша\The Last Savior\bin\Release\TheLastSavior.exe.config
+C:\миша\The Last Savior\bin\Release\TheLastSavior.exe
+C:\миша\The Last Savior\bin\Release\TheLastSavior.pdb
+C:\миша\The Last Savior\bin\Release\nunit.framework.dll
+C:\миша\The Last Savior\bin\Release\nunit.framework.pdb
+C:\миша\The Last Savior\bin\Release\nunit.framework.xml
+C:\миша\The Last Savior\obj\Release\The Last Savior.csprojAssemblyReference.cache
+C:\миша\The Last Savior\obj\Release\MyGame.GameForm.resources
+C:\миша\The Last Savior\obj\Release\MyGame.MainMenuForm.resources
+C:\миша\The Last Savior\obj\Release\MyGame.Properties.Resources.resources
+C:\миша\The Last Savior\obj\Release\The Last Savior.csproj.GenerateResource.cache
+C:\миша\The Last Savior\obj\Release\The Last Savior.csproj.CoreCompileInputs.cache
+C:\миша\The Last Savior\obj\Release\The Last Savior.csproj.CopyComplete
+C:\миша\The Last Savior\obj\Release\TheLastSavior.exe
+C:\миша\The Last Savior\obj\Release\TheLastSavior.pdb
+C:\миша\The Last Savior\bin\Release\GameConsole.exe
+C:\миша\The Last Savior\bin\Release\GameConsole.pdb
+C:\миша\The Last Savior\bin\Release\GameConsole.exe.config
